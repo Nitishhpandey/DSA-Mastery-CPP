@@ -1,0 +1,11 @@
+*.exe
+*.o
+*.out
+a.out
+*.dSYM/
+input.txt
+output.txt
+demo.cpp
+.DS_Store
+.vscode/settings.json
+__pycache__/
