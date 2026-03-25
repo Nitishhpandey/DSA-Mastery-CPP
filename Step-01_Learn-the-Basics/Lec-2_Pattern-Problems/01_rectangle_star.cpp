@@ -1,14 +1,12 @@
-// simple rule to print patterns
-
 #include <iostream>
 using namespace std;
 // void function to print the pattern
-void printpattern1(){
+void printpattern1(int n){
     
     //outer loop for the number of lines
-for (int i=0; i<4; i++) {
+for (int i=0; i<n; i++) {
     // inner lines for the number of rows
-    for (int j=0; j<4; j++){ 
+    for (int j=0; j<n; j++){ 
         // what we have to print
         cout<<"*";
     }
@@ -16,5 +14,7 @@ for (int i=0; i<4; i++) {
 }
 }
 int main(){
-printpattern1();
+    int n;
+    cin>>n;
+printpattern1(n);
 }
